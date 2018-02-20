@@ -1,6 +1,6 @@
 pipeline:
-  build:
-    image: python
+  mynewtask:
+    image: redis
     commands:
       - env
       - echo "Hello Drone!, Its rocks"
