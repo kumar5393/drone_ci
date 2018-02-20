@@ -1,8 +1,4 @@
-pipeline:
-  mynewtask:
-    image: redis
-    commands:
-      - env
-      - echo "Hello Drone!, Its rocks."
-    when:
-      event: push
+image: python
+script:
+  - python hello.py
+  - echo "Hello"
