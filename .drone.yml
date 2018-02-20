@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: redis
+    image: python
     commands:
       - env
       - echo "Hello Drone!, Its rocks"
